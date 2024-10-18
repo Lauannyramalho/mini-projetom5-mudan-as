@@ -1,0 +1,106 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+}
+
+body {
+background-color: rgb(33, 97, 119);
+font-family: Arial, sans-serif;
+line-height: 1.6;
+padding: 20px;
+}
+
+.App {
+text-align: center;
+font-family: Arial, sans-serif;
+}
+
+header {
+background-color: #0a095e91;
+color: rgb(35, 43, 59);
+padding: 30px;
+text-align: center;
+}
+
+h1 {
+margin:10px 0;
+text-align: center;
+padding: 10px 0;
+}
+
+.main {
+margin-top: 20px;
+}
+
+.center {
+display: flex;
+justify-content: center;
+}
+
+.menu {
+background-color: rgb(255, 255, 255);
+border-radius: 8px;
+box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+padding: 20px;
+max-width: 400px;
+width: 100%;
+margin: 20px;
+}
+
+.item_menu {
+display: flex;
+flex-direction: column;
+}
+
+input {
+background-color: rgb(0, 0, 0);
+padding: 10px;
+border: 1px solid #ffffff;
+border-radius: 5px;
+width: calc(100% - 22px);
+margin: 10px 0;
+transition: border 0.3s;
+}
+
+input:focus {
+border-color: #4cc0dd;
+outline: none;
+box-shadow: 0 0 5px rgba(45, 128, 223, 0.5);
+}
+
+button {
+background-color: black;
+color: white;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+transition: background-color 0.3s;
+width: 100%;
+margin-top: 10px;
+}
+
+button:hover {
+background-color: #080b97;
+}
+
+.graficos {
+margin-top: 20px;
+padding: 10px;
+
+}
+
+footer {
+background-color: #f1f1f1;
+padding: 10px 0;
+text-align: center;
+margin-top: 20px;
+border-top: 1px solid #ccc;
+}
+
+p{
+  background-color: #ccc;
+  color: black;
+  text-align: center;
+}
